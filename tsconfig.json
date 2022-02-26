@@ -19,8 +19,8 @@
         // / to begin with.
         "src/*"
       ],
-      "@api": ["./src/areas/api/index"],
-      "@api/*": ["./src/areas/api/*"],
+      "@api": ["./src/areas/api/runtime/index"],
+      "@api/*": ["./src/areas/api/runtime/*"],
       "@/*": ["./src/*"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]

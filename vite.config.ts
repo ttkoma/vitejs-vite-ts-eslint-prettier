@@ -8,7 +8,7 @@ export default defineConfig({
     alias: {
       "@": resolve(__dirname, "src"),
       "~": resolve(__dirname, "src"),
-      "@api": resolve(__dirname, "src/areas/api"),
+      "@api": resolve(__dirname, "src/areas/api/runtime"),
     },
   },
   plugins: [vue()],
