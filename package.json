@@ -21,7 +21,8 @@
     "*": "prettier -w -u"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vite-plugin-vue2": "^1.9.3",
+    "vue": "^2.6.14"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.12.1",
@@ -37,6 +38,7 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.4",
     "vite": "^2.8.0",
+    "vue-template-compiler": "^2.6.14",
     "vue-tsc": "^0.29.8"
   }
 }

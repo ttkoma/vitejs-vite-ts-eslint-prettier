@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
+import { createVuePlugin } from "vite-plugin-vue2";
 import { resolve } from "path";
 
 // https://vitejs.dev/config/ya
@@ -11,5 +11,5 @@ export default defineConfig({
       "@api": resolve(__dirname, "src/areas/api/runtime"),
     },
   },
-  plugins: [vue()],
+  plugins: [createVuePlugin()],
 });

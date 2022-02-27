@@ -1,8 +1,12 @@
-<script setup lang="ts">
-  import { ref } from "vue";
+<script lang="ts">
+  import Vue from "vue";
   import { Genders } from "@api";
 
-  const gender = ref(Genders.MAN);
+  export default Vue.extend({
+    data: () => ({
+      gender: Genders.MAN as string,
+    }),
+  });
 </script>
 
 <template>
